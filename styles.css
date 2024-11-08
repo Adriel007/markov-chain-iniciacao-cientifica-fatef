@@ -1,0 +1,83 @@
+html, 
+body {
+  height: 100%;
+}
+
+.custom_bg {
+  background-image: url("https://media.canva.com/v2/image-resize/format:PNG/height:414/quality:100/uri:s3%3A%2F%2Fmedia-private.canva.com%2FNwtxk%2FMAGVn0Nwtxk%2F1%2Fp.png/watermark:F/width:736?csig=AAAAAAAAAAAAAAAAAAAAAFzpdljZ3vohCY3FDDni_yseIRfX0YrNvBA_mCkmagFV&exp=1731037424&osig=AAAAAAAAAAAAAAAAAAAAAIF4mhzdgB1q6VMvEjJ3DG-MO13oQd9Ru2Y0zKzdhrLn&signer=media-rpc&x-canva-quality=screen");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+.custom_title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.custom_margin {
+  margin: 0;
+}
+
+.custom_text {
+  -webkit-text-stroke: 1px #fff;
+  color: transparent;
+}
+
+.custom_fs {
+  font-weight: 1000;
+  font-size: 5em;
+  font-family: 'Libre Franklin';
+}
+
+.custom_textarea {
+  background-color: rgba(255, 255, 255, .6);
+  border: solid 3px #08518d;
+  border-radius: 15px;
+  color: #000;
+  font-family: monospace;
+  height: 100%;
+  overflow-y: auto;
+  width: 90%;
+  padding: 5px;
+}
+
+.custom_legend {
+  font-weight: 1000;
+  font-size: 3em;
+  font-family: 'Libre Franklin';
+}
+
+.custom_label {
+  color: #08518d;
+  background-color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  padding: .05em;
+  border: solid 4px #08518d;
+  font-family: 'Libre Franklin';
+  text-align: center;
+  border-radius: 100%;
+  transition: all .3s ease-in-out;
+}
+
+.custom_label:hover {
+  cursor: pointer;
+}
+
+.custom_button {
+  background-color: #fff;
+  border: solid 3px #08518d;
+  -webkit-text-stroke: 2px #08518d;
+  border-radius: 50px;
+  color: #fff;
+  font-family: 'Libre Franklin';
+  font-size: 3em;
+  padding: 5px 25px 5px 25px;
+  text-align: center;
+}
